@@ -1,0 +1,68 @@
+h2{
+    text-align: center;
+    margin-top: 12px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+label{
+    font-size: 17px;
+}
+.myinput{
+    border-radius: 20px;
+    padding: 6px 7px;
+    margin-bottom: 10px;
+    width:87%;
+    border: 3px solid rgb(14, 167, 91);
+    transition: all 0.4s ease-in-out 0s ;
+    outline: none;
+}
+.myinput:hover{
+    background-color: rgba(223, 155, 225, 0.402);
+    width:89%;
+}
+.ff{
+    border: 2px solid black;
+    width:70%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    padding:10px 14px;
+    transition: all 0.4s ease-in-out 0s ;
+}
+.ff:hover{
+    width:72%;
+    background-color: azure;
+}
+ /* #foot{
+    margin-top: 400px;
+}  */
+textarea{
+    width: 95%;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out 0s ;
+    padding:10px 10px;
+    border: 2px solid  rgb(14, 167, 91); ;
+    resize: none;
+    margin-bottom: 7px;
+}
+textarea:hover{
+    background-color: rgba(227, 130, 230, 0.305)
+
+}
+.btn{
+    display: block;
+    margin: auto;
+    width:10%;
+    border: 2px solid rgb(14, 167, 91);
+    transition: all 0.4s ease-in-out 0s ;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(83, 119, 226, 0.658);
+}
+.btn:hover{
+    background-color: rgba(75, 99, 169, 0.684);
+    padding:2px 2px;
+}

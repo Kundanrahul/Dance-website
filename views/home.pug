@@ -1,0 +1,42 @@
+extends base.pug 
+
+block scripts 
+   script(src="../static/index.pug")
+
+block style 
+   style 
+    include ../static/style.css 
+block content 
+    section#introsection 
+      |WELCOME TO KUNDAN'S DANCE ACADEMY
+      div.small FLOW WITH IT!
+    section#missionsection
+      h3 OUR MISSION
+      div.card 
+         h2 this is a para
+          div.cardbox 
+             div.cardimg
+                 img(src="../static/1.png", alt="")
+             div.cardcontent 
+                 h4 let your body move  
+      div.card 
+       h2 this is a para
+         div.cardbox 
+             div.cardimg 
+                 img(src="../static/ballet.png", alt="")
+             div.cardcontent 
+                 h4 let your body move
+      div.card 
+       h2 this is a para
+         div.cardbox 
+             div.cardimg 
+                 img(src="../static/1.png", alt="")
+             div.cardcontent 
+                 h4 let your body move
+    section#sponsorssection 
+      h3 OUR SPONSORS
+      div#sponsors 
+         img(src="../static/apple.png", alt="" class="spi")
+         img(src="../static/skype.png", alt="" class="spi")
+         img(src="../static/ms.png", alt="" class="spi")
+         img(src="../static/samsung.png", alt="" class="spi")

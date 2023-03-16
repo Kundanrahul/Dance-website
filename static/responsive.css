@@ -1,0 +1,27 @@
+@media only  screen and (max-width:1000px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    #missionsection{
+        height:80%;
+    }
+    #sponsors{
+        height:100px;
+    }
+    .card:hover{
+        width:82%;
+    }
+    p{
+        font-size: 0.8rem;
+        font-weight: lighter;
+    }
+    .myinput{
+        width: 50%;
+    }
+    
+}
